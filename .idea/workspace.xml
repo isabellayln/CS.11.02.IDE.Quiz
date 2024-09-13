@@ -4,15 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0c5c9a6e-a075-4ea8-afdc-05a64b8dcf1b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/MainTest.java" afterDir="false" />
+    <list default="true" id="0c5c9a6e-a075-4ea8-afdc-05a64b8dcf1b" name="Changes" comment="IDE 2 done">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,9 +24,24 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;isabellayln&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/isabellayln/CS.11.02.IDE.Quiz.git&quot;,
+    &quot;accountId&quot;: &quot;fcb30954-0b12-4643-9e1c-866bf6f66621&quot;
+  }
+}</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2lomUpZQTJx2ZWOFRoF92lm7v4b" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -40,11 +50,22 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JUnit.MainTest.celsiusToFahrenheit.executor": "Run",
+    "JUnit.MainTest.circleArea.executor": "Run",
+    "JUnit.MainTest.circleCircum.executor": "Run",
+    "JUnit.MainTest.circleInfo.executor": "Run",
+    "JUnit.MainTest.distanceBetweenTwoPoints.executor": "Run",
+    "JUnit.MainTest.executor": "Run",
+    "JUnit.MainTest.fahrenheitToCelsius.executor": "Run",
+    "JUnit.MainTest.minutesToHoursMinutes.executor": "Run",
+    "JUnit.MainTest.twentyFourToTwelve.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": ""
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -55,21 +76,8 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MainTest">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
-      <module name="CS.11.02.IDE.Quiz" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MainTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.MainTest.celsiusToFahrenheit">
+    <configuration name="MainTest.celsiusToFahrenheit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CS.11.02.IDE.Quiz" />
       <extension name="coverage">
         <pattern>
@@ -79,22 +87,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.example" />
       <option name="MAIN_CLASS_NAME" value="org.example.MainTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MainTest.circleArea" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CS.11.02.IDE.Quiz" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.MainTest" />
-      <option name="METHOD_NAME" value="circleArea" />
+      <option name="METHOD_NAME" value="celsiusToFahrenheit" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -111,6 +104,38 @@
       <option name="PACKAGE_NAME" value="org.example" />
       <option name="MAIN_CLASS_NAME" value="org.example.MainTest" />
       <option name="METHOD_NAME" value="distanceBetweenTwoPoints" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainTest.fahrenheitToCelsius" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CS.11.02.IDE.Quiz" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.MainTest" />
+      <option name="METHOD_NAME" value="fahrenheitToCelsius" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainTest.minutesToHoursMinutes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CS.11.02.IDE.Quiz" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.MainTest" />
+      <option name="METHOD_NAME" value="minutesToHoursMinutes" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -134,11 +159,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MainTest" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.MainTest.celsiusToFahrenheit" />
+        <item itemvalue="JUnit.MainTest.fahrenheitToCelsius" />
         <item itemvalue="JUnit.MainTest.distanceBetweenTwoPoints" />
-        <item itemvalue="JUnit.MainTest.circleArea" />
         <item itemvalue="JUnit.MainTest.twentyFourToTwelve" />
+        <item itemvalue="JUnit.MainTest.minutesToHoursMinutes" />
       </list>
     </recent_temporary>
   </component>
@@ -163,5 +188,24 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="IDE 2 done" />
+    <option name="LAST_COMMIT_MESSAGE" value="IDE 2 done" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/org/example/MainTest.java</url>
+          <line>28</line>
+          <properties class="org.example.MainTest" method="minutesToHoursMinutes">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
